@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/aidenkoch4/ece430-tt-GF26A
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_aidenkoch4
+  project: Three Channel RGB PWM Controller
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 8ee1c8dacdde587c9cdbe136a84c49a6b0e01e3c
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_aidenkoch4
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_aidenkoch4
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:02:02Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_aidenkoch4
+- upstream/main
